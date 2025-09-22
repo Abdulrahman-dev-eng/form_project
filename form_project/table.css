@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: rgb(129, 116, 171);
+  padding: 20px;
+  font-family: "Papyrus", fantasy;
+}
+
+p {display: none; color: red; font-size: 15px;}
+
+th {
+  text-align: left; 
+  background-color: rgb(129, 116, 171);
+  padding: 10px;
+}
+
+td {padding: 5px;}
+
+input {padding: 5px; width: 50%;}
+
+fieldset {
+  background-color: rgb(129, 116, 171);
+  padding: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  background-color: rgb(129, 116, 171);
+  margin: 30px;
+  border-radius: 2px;
+}
+
+table, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
